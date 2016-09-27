@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Amaranth|Titillium+Web';
+
 *,
 *::before,
 *::after {
@@ -7,16 +9,34 @@
 }
 
 body {
+  font-family: 'Titillium Web', sans-serif;
   width: 100vw;
   height: 100vh;
   color: #4a4545;
+  font-size: 1.1em;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
 }
 
 header {
   height: 25em;
   text-align: center;
-  border: 2px solid tomato;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1, h3 {
+  font-family: 'Amaranth', sans-serif;
+}
+
+section {
+  width: 50%;
+}
+
+p {
+  text-align: justify;
 }
