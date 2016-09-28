@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Amaranth|Titillium+Web';
+@import 'https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans';
 
 *,
 *::before,
@@ -13,26 +14,29 @@ body {
   width: 100vw;
   height: 100vh;
   color: #4a4545;
-  font-size: 1.1em;
+  font-size: 1.2em;
   background: #FFF5F4;
 }
 
 .wrap {
   width: 100%;
   margin: 0 auto;
-  padding: 2%;
+  /*padding: 2%;*/
   display: flex;
   flex-wrap: wrap;
 }
 
 header {
+  width: 100%;
   background: url("../img/Group.png");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 30em;
   text-align: center;
-  padding-top: 12%;
+  padding-top: 15%;
+  /*border: 1px solid #979797;*/
+  /*box-shadow: 0 2px 0 #dfe1e2;*/
 }
 
 h1 {
@@ -44,8 +48,8 @@ h2 {
 }
 
 h1, h2 {
-  font-family: 'Amaranth', sans-serif;
-  color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: #2B2D42;
 }
 
 h3 {
@@ -56,7 +60,7 @@ h3 {
 section {
   width: 45%;
   text-align: center;
-  margin: 2%;
+  /*margin: 2%;*/
 }
 
 span {
@@ -66,7 +70,9 @@ span {
 .wider {
   width: 100%;
   text-align: center;
-  padding: 2%;
+  /*padding: 2%;*/
+  border: 2px solid tomato;
+  height: 15em;
 }
 
 p, h5 {
@@ -80,17 +86,21 @@ h5 {
 
 .example {
   width: 45%;
+  border-radius: 0.2em;
+  color: #404259;
+}
+
+.example h5 {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 4em;
 }
 
 .example p {
   opacity: 0;
   transition: all 3s;
+  font-size: 1.4em;
 }
 
 .example:hover p {
   opacity: 1;
-}
-
-.example p {
-  font-size: 1.3em;
 }
