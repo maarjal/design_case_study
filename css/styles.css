@@ -14,8 +14,10 @@ body {
   width: 100vw;
   height: 100vh;
   color: #4a4545;
-  font-size: 1.2em;
-  background: #FFF5F4;
+  font-size: 1.5em;
+  background: white;
+  margin: 0;
+  padding: 0;
 }
 
 .wrap {
@@ -24,6 +26,7 @@ body {
   /*padding: 2%;*/
   display: flex;
   flex-wrap: wrap;
+  /*background: #373F51;*/
 }
 
 header {
@@ -57,8 +60,10 @@ h3 {
   font-size: 1.8em;
 }
 
-section {
-  width: 45%;
+div {
+  width: 50%;
+  padding: 3%;
+  height: 30em;
   text-align: center;
   /*margin: 2%;*/
 }
@@ -71,8 +76,18 @@ span {
   width: 100%;
   text-align: center;
   /*padding: 2%;*/
-  border: 2px solid tomato;
-  height: 15em;
+  /*border: 2px solid tomato;*/
+  /*height: 15em;*/
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  background: #373F51;
+  color: #E5D5D4;
 }
 
 p, h5 {
@@ -85,9 +100,15 @@ h5 {
 }
 
 .example {
-  width: 45%;
+  /*background: url("../img/banana2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;*/
+  /*border: 2px solid hotpink;*/
+  width: 50%;
   border-radius: 0.2em;
-  color: #404259;
+  /*color: #404259;*/
+  color: #E5D5D4;
 }
 
 .example h5 {
@@ -103,4 +124,8 @@ h5 {
 
 .example:hover p {
   opacity: 1;
+}
+
+a:visited {
+  color: inherit;
 }
