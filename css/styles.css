@@ -76,11 +76,27 @@ span {
   width: 100%;
   text-align: center;
   /*padding: 2%;*/
-  /*border: 2px solid tomato;*/
+  border: 2px solid tomato;
   /*height: 15em;*/
   display: flex;
   flex-wrap: wrap;
 
+}
+
+.wider h3 {
+  border: 2px solid hotpink;
+  margin-bottom: 0;
+}
+
+.challenge {
+  /*height: 30em;*/
+  width: 100%;
+  height: auto;
+  border: 2px solid hotpink;
+  /*display: flex;
+  flex-direction: column;*/
+  /*justify-content: center;*/
+  /*line-height: 0;*/
 }
 
 .row {
