@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Amaranth|Titillium+Web';
 @import 'https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Arvo|Martel+Sans';
 
 *,
 *::before,
@@ -60,10 +61,24 @@ h3 {
   font-size: 1.8em;
 }
 
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.example-heading {
+  font-family: 'Arvo', serif;
+}
+
+.example-text {
+  font-family: 'Martel Sans', sans-serif;
+}
+
 div {
   width: 50%;
   padding: 3%;
-  height: 30em;
+  /*height: 30em;*/
   text-align: center;
   /*margin: 2%;*/
 }
@@ -76,27 +91,32 @@ span {
   width: 100%;
   text-align: center;
   /*padding: 2%;*/
-  border: 2px solid tomato;
+  /*border: 2px solid tomato;*/
   /*height: 15em;*/
   display: flex;
   flex-wrap: wrap;
 
 }
 
-.wider h3 {
+/*.wider h3 {
   border: 2px solid hotpink;
   margin-bottom: 0;
-}
+}*/
 
 .challenge {
   /*height: 30em;*/
   width: 100%;
   height: auto;
-  border: 2px solid hotpink;
+  /*border: 2px solid hotpink;*/
   /*display: flex;
   flex-direction: column;*/
   /*justify-content: center;*/
   /*line-height: 0;*/
+}
+
+.process-row {
+  background: #373F51;
+  color: #E5D5D4;
 }
 
 .row {
